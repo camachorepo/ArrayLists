@@ -86,8 +86,8 @@ public class ColorMethods {
 	
 	public void convertToList(ArrayList a, String[] b) {
 		
-		for(Object o : b) {
-			a.add(o);	
+		for(String s : b) {
+			a.add(s);	
 			
 		}
 		
